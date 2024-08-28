@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  color: #fff;
+  text-decoration: none;
+}
+body {
+    background: #151723;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 4%;
+  height: fit-content;
+  background: transparent;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.heading h2{
+  font-size: 1.8em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+.heading .register{
+  margin: 25px 0 20px 0;
+}
+.heading span{
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 420;
+}
+.heading a{
+  color: #90ADEF;
+  font-weight: 520;
+}
+
+/* Form design */
+.form-filed{
+  position: relative;
+  width: 100%;
+}
+.form-filed .frist-filed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-filed .frist-filed input{
+  font-size: 1em;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 13px;
+}
+.form-filed .frist-filed input::placeholder{
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-filed .frist-filed input:hover{
+  border: 2px solid #3D5FFF;
+}
+.form-filed .frist-filed button{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  padding: 15px 0;
+  background: #3D5FFF;
+  font-weight: 430;
+}
+.form-filed .frist-filed .forget-password{
+  margin: 15px 0;
+}
+.form-filed .frist-filed .forget-password a{
+  position: relative;
+  color: #90ADEF;
+  font-weight: 500;
+}
+.form-filed .frist-filed .forget-password a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.form-filed .frist-filed .forget-password a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.secound-filed .link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.secound-filed .link:hover{
+  background: #2A2A32;
+}
+.secound-filed .link span{
+  font-size: 1.1em;
+}
+.secound-filed .link button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  border: 0.5px solid rgba(100, 100, 100, 0.5);
+  font-weight: 400;
+  background: transparent;
+}
+.secound-filed .link button span{
+  color: rgba(255, 255, 255, 0.9);
+}
+.secound-filed .link img{
+  margin: 0 9px;
+  width: 40px;
+}
+.secound-filed .apple img{
+  width: 25px;
+}
+footer{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 0.85em;
+}
+footer a,
+footer div{
+  color: rgba(255, 255, 255, 0.9);
+}
+footer .footer-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+footer .footer-one img{
+  width: 15px;
+}
+footer .footer-one .mode,
+footer .footer-one .language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-one .mode{
+  margin: 0 10px 0 0;
+}
+footer .footer-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+footer .footer-three{
+  margin-bottom: 20px;
+}
+footer .footer-three div{
+  color: rgba(255, 255, 255, 0.4);
+}
